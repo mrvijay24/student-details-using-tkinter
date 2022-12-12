@@ -1,0 +1,19 @@
+
+from tkinter import*
+sd=Tk()
+sd.title("student details");
+Label(sd,text="enter the student id:").grid(row=0)
+Label(sd,text="enter the student name:").grid(row=1)
+Label(sd,text="enter the student father name:").grid(row=2)
+Label(sd,text="enter the student mobile number:").grid(row=3)
+Label(sd,text="enter the student email id:").grid(row=4)
+Label(sd,text="enter the student address:").grid(row=5)
+Entry(sd).grid(row=0,column=1)
+Entry(sd).grid(row=2,column=1)
+Entry(sd).grid(row=3,column=1)
+Entry(sd).grid(row=4,column=1)
+Entry(sd).grid(row=5,column=1)
+Entry(sd).grid(row=1,column=1)
+Button(sd,text="login",bg="black",fg="white").grid(row=6,column=0)
+Button(sd,text="cancle",bg="black",fg="white").grid(row=6,column=1)
+sd.geometry("600x600")
